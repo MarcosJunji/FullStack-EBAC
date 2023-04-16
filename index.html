@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- CRIANDO O FORMULARIO -->
+<div class="container">
+    <h1>Lista de tarefas</h1>
+    <form id="cadastra-tarefa">
+        <input type="text" placeholder="Nome da tarefa" id="nome-tarefa">
+        <button type="submit" id="adiciona-tarefa">Cadastrar</button>
+        <button type="reset" id="limpa-lista">Resetar</button>
+    </form>
+<!-- CRIANDO LISTA DE TAREFAS -->
+    <div class="lista-tarefa">
+        <ul>
+        </ul>
+    </div>
+</div> 
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(235, 231, 231);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+form {
+    margin-top: 24px;
+}
+
+input, button {
+    font-size: 18px;
+    height: 36px;
+}
+
+#adiciona-tarefa {
+    color: #fff;
+    background-color: rgb(65, 177, 65);
+    width: 130px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#limpa-lista {
+    color: #fff;
+    background-color: red;
+    width: 130px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lista-tarefa {
+    margin-top: 12px;
+    cursor: pointer;
+}
