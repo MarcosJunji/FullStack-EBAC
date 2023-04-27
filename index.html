@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form BootsTrap</title>
+    <!-- LINK BOOTSTRAP VIA CDN CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <!-- LINK BOOTSTRAP VIA CDN JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        button {
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="row">
+            <div class="col-auto">
+                <label class="form-label" for="name" id="name">Nome:</label>
+                <input class="form-control form-control-sm" id="name" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <label class="form-label" for="email" id="email">E-mail:</label>
+                <input class="form-control form-control-sm" id="email" type="email">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <label class="form-label" for="telephone" id="telephone">Telefone:</label>
+                <input class="form-control form-control-sm" id="telephone" type="tel">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-dark">Enviar</button>
+    </form>
+</body>
+</html>
